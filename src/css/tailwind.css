@@ -1,0 +1,15 @@
+/* src/css/tailwind.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+@tailwind base;
+body {
+    @apply text-[#4F646F] font-roboto-condensed bg-[#fffef8] container
+}
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .font-roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
